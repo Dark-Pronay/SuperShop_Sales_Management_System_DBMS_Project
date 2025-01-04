@@ -1,0 +1,24 @@
+function showLogin(userType) {
+    const userTypeInput = document.getElementById('user-type');
+    const userIdLabel = document.getElementById('user-id-label');
+    const userIdInput = document.getElementById('user_id');
+    const loginForm = document.getElementById('login-form');
+
+    // Update the hidden input field for user type
+    userTypeInput.value = userType;
+
+    // Update the label and placeholder based on user type
+    if (userType === "admin") {
+        userIdLabel.innerText = "Admin ID:";
+        userIdInput.placeholder = "Enter Admin ID";
+    } else if (userType === "store") {
+        userIdLabel.innerText = "Store ID:";
+        userIdInput.placeholder = "Enter Store ID";
+    } else if (userType === "distributor") {
+        userIdLabel.innerText = "Distributor ID:";
+        userIdInput.placeholder = "Enter Distributor ID";
+    }
+
+    // Show the login form
+    loginForm.style.display = 'block';
+}
