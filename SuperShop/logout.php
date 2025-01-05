@@ -8,6 +8,6 @@ session_unset();
 session_destroy();
 
 // Redirect to the homepage (index.php in the root directory)
-header("Location: /supershop/index.php"); // Replace 'your_project_folder' with the actual folder name where your project is located.
+header("Location: /supershop/index.php"); 
 exit;
 ?>
