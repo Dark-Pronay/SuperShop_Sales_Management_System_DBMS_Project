@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['add_distributor'])) {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background: url("../admin.jpg") no-repeat center center fixed;
+            background: url("admin.jpg") no-repeat center center fixed;
             background-size: cover;
             color: #2c3e50;
         }
