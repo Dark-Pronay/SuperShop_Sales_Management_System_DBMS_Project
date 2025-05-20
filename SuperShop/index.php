@@ -80,7 +80,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Welcome to Supershop Sales Management System</h1>
+    <h1>Welcome to Supershop Sales Management Hub</h1>
     <div class="login-sections">
         <button onclick="showLogin('admin')">Admin Login</button>
         <button onclick="showLogin('store')">Store Login</button>
