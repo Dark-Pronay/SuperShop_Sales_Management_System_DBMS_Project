@@ -41,3 +41,4 @@ if ($result->num_rows > 0) {
     header("Location: ../index.php?error=invalid_credentials");
 }
 ?>
+//this is a sample 
